@@ -1,0 +1,73 @@
+body {
+  background: #1a1a2e;
+  color: #eee;
+  font-family: 'Segoe UI',sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: #23234f;
+  padding: 2.5rem 2rem;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px #0006;
+  text-align: center;
+  width: 320px;
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+.star-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  margin-bottom: 1.2em;
+}
+.star {
+  font-size: 2em;
+  color: gold;
+  text-shadow: 0 0 8px #ff0, 0 0 16px #f0c, 0 0 4px #fff;
+}
+.compromiso {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #ffd700;
+  letter-spacing: 1px;
+}
+p {
+  margin: 0 0 1.2rem 0;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.btn {
+  display: block;
+  padding: 0.7em 1.3em;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.2s;
+  font-weight: bold;
+}
+.btn.whatsapp { background: #25D366; }
+.btn.whatsapp:hover { background: #1BAC54; }
+.btn.youtube { background: #FF0000; }
+.btn.youtube:hover { background: #b80000; }
+.btn.biofeita { background: #007bff; }
+.btn.biofeita:hover { background: #0062cc; }
